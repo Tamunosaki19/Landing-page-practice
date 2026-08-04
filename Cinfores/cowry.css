@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 1;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.logo{
+    color: blue;
+    margin-left: 50px;
+    font-size: clamp(14px,3.5vw,20px);
+}
+.navbar{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+    font-size: clamp(14px,3.5vw,20px);
+}
+.navbar a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.562);
+}
+#menu-toggle{
+    display: none;
+}
+.dropdown-icon{
+    display: none;
+    width: 100%;
+    max-width: 30px;
+    min-height: 30px;
+}
+.sign_in{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 350px;
+    width: 100%;
+}
+.sign_in a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+.sign_in button{
+    background-color: blue;
+    height: 50px;
+    max-width:180px ;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+.sign_in button a{
+    color: white;
+}
+.section1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(Image2/images\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    min-height: 80vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+    padding: 50px;
+    gap: 40px;
+    color: white;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+}
+.content h1{
+    font-size: clamp(40px,7vw,80px);
+}
+.content p{
+    font-size: clamp(13px,3vw,25px);
+}
+.content button{
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    min-height: 50px;
+    height: auto;
+    width: 250px;
+}
+.content button a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.section2{
+    width: 100%;
+    min-height: 110vh;
+    height: auto;
+    margin-top: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.content2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 10vh;
+    height: 100%;
+    flex-direction: column;
+}
+.content2 .top-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 40px;
+}
+.content2 .page{
+    display: flex;
+    justify-content: space-between;
+    min-height: 50vh;
+    height: auto;
+    gap: 40px;
+    color: rgba(0, 0, 128, 0.678);
+}
+.content2 .page1{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    max-width: 430px;
+    width: 100%;
+}
+.content2 .page2{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    max-width: 380px;
+    width: 100%;
+}
+.content2 h1{
+    font-size: clamp(30px,5vw,60px);
+}
+.content2 p{
+    font-size: clamp(10px,2.5vw,20px);
+}
+.content2 button{
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+}
+.content2 button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.content2 .cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    gap: 30px;
+}
+.content2 .card{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border-radius: 15px;
+    min-height: 380px;
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+.content2 .card-header{
+  color: #000;
+  display: flex;
+  justify-content: left;
+  transition: 0s ease ;
+}
+.content2 .card-content{
+    color: rgba(0, 0, 128, 0.678);
+    background-color: white;
+    border-radius: 10px;
+    margin-top: auto;
+    transition: 1.5s ease ;
+}
+.content2 .card:hover .card-header{
+    color: blue;
+}
+.content2 .card:hover .card-content{
+    transform: translateY(-10px) scale(1.05);
+}
+
+
